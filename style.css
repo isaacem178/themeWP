@@ -1,0 +1,25 @@
+/*
+    Theme Name: themeWP
+    Theme URI:
+    Author: isaac enrrique maldonado ampies
+    Author URI: https://www.isaac1965.github.io
+    Description: aprendiendo wordpress
+    Version: 1.0
+    Licence: GNU General Public Licence or later
+    Tags: html5, css3, ciudad
+*/
+
+html{
+    font-size: 1em;
+    line-height: 1.4;
+    color: #292929;
+}
+
+header {
+    background-color: #a00622;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
