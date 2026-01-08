@@ -13,13 +13,135 @@ html{
     font-size: 1em;
     line-height: 1.4;
     color: #292929;
+    font-family: sans-serif;
+}
+
+.clear {
+    clear: both;
 }
 
 header {
     background-color: #a00622;
 }
 
+header .logo { 
+    width: 400px;
+    float: left;
+ }
+
+ header nav {
+    float: right;
+    width: 450px;
+    margin-top: 42px;
+
+ }
+
+ header nav ul {
+    list-style: none;
+ }
+ header nav ul li{
+    display: inline;
+    margin-left: 20px;
+ }
+
+ header nav ul li.current_page_item {
+    border-bottom: 2px solid #ffffff;
+    padding: 0 0 5px 0;
+ }
+
+ header nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+ }
+ 
+ #contenido {
+    margin-top: 20px;
+ }
+
 .container {
     width: 1100px;
     margin: 0 auto;
+}
+
+footer nav {
+    float: left;
+    width: 500px;
+    margin-top: 30px;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+footer nav ul li a {
+    color: #a00622;
+    text-decoration: none;
+}
+
+footer .copyright {
+    border-top: 1px solid #a00622;
+}
+
+footer .copyright p {
+    color: #a00622;
+    text-align: center;
+}
+
+#primary {
+    float: left;
+    width: 720px;
+}
+
+.destacada {
+    position: relative;
+}
+
+.destacada h2{
+   position: absolute; 
+   left: 0;
+   bottom: 10px;
+   background-color: #a00622;
+   padding: 10px 15px;
+   color: #ffffff;
+}
+
+h2.noimagen {
+    color: #a00622;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #a00622;
+}
+
+#secondary {
+    float: right;
+    width: 370px;
+    margin: 0 0 0 10px;
+}
+
+/* SIDEBAR */
+
+#testimoniales h3{
+ color: #a00622;
+ font-size: 20px;
+}
+
+#testimoniales .textwidget {
+    font-size: 20px;
+    line-height: 34px;
+    color: #767676;
+    background-image: url(img/svg_comilla.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 86px;
+}
+
+#testimoniales .textwidget span{
+ 
 }

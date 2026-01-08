@@ -1,5 +1,9 @@
-<?php get_header(); ?>
+<?php 
+/*
+* Template Name: Guía Toronto
+*/
 
+get_header(); ?>
     <?php while(have_posts() ): the_post(); ?>
 
     <?php if (has_post_thumbnail() ) { ?>
@@ -16,10 +20,11 @@
     <?php } ?>
     
         <div id="primary" class="primary">
-                <?php the_content(); ?>
+            desde page-blog.php
         </div>
 
         <?php endwhile; ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+
