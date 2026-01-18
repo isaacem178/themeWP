@@ -99,6 +99,7 @@ footer .copyright p {
 
 .destacada {
     position: relative;
+    margin: 0 0 20px 0;
 }
 
 .destacada h2{
@@ -144,4 +145,120 @@ h2.noimagen {
 
 #testimoniales .textwidget span{
  
+}
+
+/*GUIA TORONTO*/
+
+
+.post-guia {
+   float: left; 
+   width: 350px; 
+   /*margin-right: 10px;*/
+   margin: 0 10px 20px 0;
+}
+
+
+.post-guia .imagen{   
+    position: relative;
+}
+
+.post-guia .imagen .categoria {
+   position: absolute; 
+   top: -10px;
+   left: -25px;
+}
+
+.categoria ul {
+   list-style: none; 
+}
+
+.categoria ul li {
+   background-color: #a00622; 
+   padding: 3px 5px;
+}
+
+.categoria ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.post-guia .contenido {
+    padding: 10px;
+}
+
+.post-guia .contenido h3 {
+    margin: 0;
+    padding: 0;
+    color: #a00622;
+}
+
+.post-guia .contenido p {
+   color: #000000; 
+   font-size: 15px;
+   text-align: justify;
+}
+
+.post-guia .contenido a {
+   float: right; 
+   background-color: #a00622;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   padding: 5px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.post-guia .info-post {
+   background-color: #ebebeb; 
+   padding: 0px 5px;
+}
+
+.post-guia .info-post p{ 
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+
+p.autor {
+    float: left;
+    width: 40%;
+}
+
+p.autor span{
+    color: #a00622;
+}
+
+p.fecha {
+   float: right; 
+   width: 40%;
+   text-align: right;
+}
+
+/*SINGLE POST*/
+
+.single .publicacion {
+    background-color: #ebebeb;
+    padding: 5px;
+}
+
+.single .publicacion a,span{
+   color: #a00622; 
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.columna {
+    float: left;
+    width: 33%;
+}
+
+/* CONSEJOS */
+
+
+h2.consejos {
+   font-size: 20px; 
+   color: #a00622;
 }
