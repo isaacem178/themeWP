@@ -262,3 +262,125 @@ h2.consejos {
    font-size: 20px; 
    color: #a00622;
 }
+
+/* CONTACTOS */
+
+.post-16 h3 {
+   text-align: center; 
+   color: #a00622; 
+}
+
+.post-16 .wpcf7 {
+   background-color: #dedede; 
+   padding: 40px;
+   width: 60%;
+   border-radius: 20px;
+   margin: 0 auto;
+   -webkit-box-shadow: 00px 30px 20px  rgba(0,0,0,.3);
+   box-shadow: 00px 30px 20px  rgba(0,0,0,.3);
+}
+
+.post-16 .wpcf7 p {
+    font-size: 18px;
+   font-weight: bold; 
+   color: #a00622;
+}
+.post-16 .wpcf7 input,
+.post-16 .wpcf7 textarea {
+    height: 42px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.post-16 .wpcf7 textarea {
+    height: 200px;
+}
+
+.post-16 .wpcf7 input[type="submit"]{
+   background-color: #a00622; 
+   font-weight: bold;
+   font-size: 20px;
+   color: #ffffff;
+   border-radius: 5px;
+   width: auto;
+   padding: 0 20px;
+}
+
+/*FRONT PAGE*/
+#slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background-color: #a00622;
+}
+
+#slider .bx-wrapper .bx-pager.bx-default-pager a {
+   background-color: #9b9b9b; 
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+}
+
+
+#slider .bx-wrapper .bx-pager {
+    bottom: -42px;
+}
+
+#queVisitar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#queVisitar .widget_media_image {
+   /*float: left; */
+   /*width: 33%;*/
+   /*text-align: center;*/
+   margin-right: 10px;
+   text-align: center;
+   display: flex;
+   flex-direction: column-reverse;
+   /*width: 100%;*/
+}
+
+#informacionConsejos h2{
+    color: #a00622;
+    font-size: 18px;
+}
+
+#queVisitar .widget_media_image h3 {
+    padding: 10px 0;
+    background-color: #a00622; 
+    color: white;
+    border-radius: 20px;
+}
+
+#informacionConsejos,
+#informacionConsejos div.consejos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#informacionConsejos div.informacion {
+    padding: 0 10px 0 0;
+}
+
+#informacionConsejos div.consejos-2 {
+   display: flex; 
+   flex-direction: column;
+}
+
+#informacionConsejos div.consejos-2 .consejosTitle{
+   text-align: center; 
+   color: #a00622;
+}
+
+
+/*CATEGORIAS*/
+
+.single .publicacion a.more-link, span {
+}
+
+
+h1.categoria {
+    font-size: 23px;
+    color: #a00622;
+}
